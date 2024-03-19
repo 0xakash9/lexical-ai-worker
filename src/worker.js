@@ -28,7 +28,7 @@ export default {
 					{ role: 'system', content: 'You are a helpful text editor assistant.' },
 					{
 						role: 'user',
-						content: `${options} the following text from editor and return the text as content: ${text}`,
+						content: `${options} the following text from editor and return the text as a single sentence: ${text}`,
 					},
 				],
 				model: 'gpt-3.5-turbo',
@@ -43,6 +43,7 @@ export default {
 			const chatCompletion = await openai.chat.completions.create(params);
 			const openAIResponse = chatCompletion.choices[0].message.content;
 
+			console.log('openAIResponse', openAIResponse);
 			return new Response(JSON.stringify(openAIResponse), {
 				headers: {
 					'Content-type': 'application/json',
