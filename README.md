@@ -1,7 +1,7 @@
-
 # Lexical Editor AI Assistant Cloudflare Worker
 
 ## Overview
+
 This Cloudflare Worker provides a lexical editing AI assistant service powered by OpenAI.
 
 ## Supported Features

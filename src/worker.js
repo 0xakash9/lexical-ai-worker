@@ -12,7 +12,7 @@ export default {
 			});
 		} else if (request.method === 'POST') {
 			const requestBody = await request?.json();
-			const secret_key = request.headers.get('secret_key');
+			const secret_key = env.OPENAI_API_KEY;
 			const text = requestBody.text;
 			let options = requestBody.options;
 			const joinWith = options.length > 1 ? ' & ' : '';

@@ -1,4 +1,7 @@
-name = "worker-winter-waterfall-d049"
+name = "lexical--ai-worker"
 main = "src/worker.js"
 compatibility_date = "2024-01-24"
 workers_dev = true
+
+[vars]
+OPENAI_API_KEY = ""
