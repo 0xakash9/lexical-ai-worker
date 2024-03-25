@@ -1,16 +1,16 @@
 {
-  "name": "worker-winter-waterfall-d049",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "deploy": "wrangler deploy",
-    "dev": "wrangler dev",
-    "start": "wrangler dev"
-  },
-  "devDependencies": {
-    "wrangler": "^3.0.0"
-  },
-  "dependencies": {
-    "openai": "^4.25.0"
-  }
+	"name": "lexical-ai-worker",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"deploy": "wrangler deploy",
+		"dev": "wrangler dev",
+		"start": "wrangler dev"
+	},
+	"devDependencies": {
+		"wrangler": "^3.0.0"
+	},
+	"dependencies": {
+		"openai": "^4.25.0"
+	}
 }
