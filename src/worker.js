@@ -31,7 +31,7 @@ export default {
 						content: `${options} the following text from editor and return the text as a single sentence: ${text}`,
 					},
 				],
-				model: 'gpt-4o',
+				model: 'gpt-3.5-turbo',
 				temperature: 0,
 				top_p: 1,
 				frequency_penalty: 0,
