@@ -8,7 +8,7 @@
 		"start": "wrangler dev"
 	},
 	"devDependencies": {
-		"wrangler": "^3.0.0"
+		"wrangler": "^3.63.2"
 	},
 	"dependencies": {
 		"openai": "^4.25.0"
