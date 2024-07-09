@@ -11,6 +11,6 @@
 		"wrangler": "^3.63.2"
 	},
 	"dependencies": {
-		"openai": "^4.25.0"
+		"openai": "^4.52.4"
 	}
 }
