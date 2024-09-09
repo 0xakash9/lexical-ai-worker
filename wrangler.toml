@@ -1,7 +1,5 @@
 name = "lexical-ai-worker"
-main = "src/worker.js"
-compatibility_date = "2024-01-24"
-workers_dev = true
+compatibility_date = "2024-09-09"
 
 [vars]
 OPENAI_API_KEY = ""
